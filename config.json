@@ -1,0 +1,15 @@
+{
+    "server_port": "8888",
+    "doc_root": "content",
+	"api_root": "api",
+	"default_page": "index.html",
+	"api_handler_postfix": "_handler",
+	"compression":"D",
+	"ssl":"N",
+	"ssl_cert":"ssl/certificate.crt",
+	"ssl_private_key":"ssl/privateKey.key",
+	"protect":true,
+	"user_acl":"acl/security.json",
+	"proxy":false,
+	"target_server":"www.google.com.sg"
+}
